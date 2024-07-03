@@ -1,3 +1,6 @@
+Pre-Requirement:
+Ensure the user has an account created and is logged in to their Uber account before proceeding with the following test scenarios.
+
 Positive Scenario: Booking a Car Successfully
 Description: Verify that users can book a rental car without encountering problems.
 
