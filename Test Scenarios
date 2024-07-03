@@ -1,0 +1,63 @@
+Positive Scenario: Booking a Car Successfully
+Description: Verify that users can book a rental car without encountering problems.
+
+Steps:
+1. Go to https://m.uber.com/go/rent.
+2. Choose a location, select dates, and pick car preferences.
+3. Fill in all required details correctly.
+4. Submit the form and ensure the booking is confirmed.
+5. Check that the confirmation details (like booking ID and car info) appear correctly.
+Expected Result: Users should be able to complete the booking process smoothly, with a clear confirmation message.
+
+Negative Scenario: Handling Invalid Inputs
+Description: Test how the system deals with invalid or incomplete form submissions.
+
+Steps:
+1. Visit https://m.uber.com/go/rent.
+2. Try to submit the form without filling in required fields.
+3. Enter invalid data formats (like wrong date format or an incorrect email address).
+4. Submit the form with incomplete or incorrect information.
+5. Expected Result: The system should show appropriate error messages for each validation issue. It should not proceed with booking until errors are fixed.
+
+
+
+Test Scenarios with Different Return Locations
+
+Scenario 1: Positive Scenario - Booking with Different Return Location
+Description: Verify that users can book a rental car with a different return location from the pickup location.
+
+Steps:
+1. Go to https://m.uber.com/go/rent.
+2. Select a pickup location.
+3. Choose a different return location from the pickup location.
+4. Select dates and car preferences.
+5. Fill in all required details correctly.
+6. Submit the form and ensure the booking is confirmed.
+7. Verify that the confirmation details (e.g., booking ID, pickup and return locations) are displayed correctly.
+Expected Result: Users should be able to complete the booking process with a different return location and receive a confirmation message with accurate details.
+
+
+Scenario 2: Negative Scenario - Invalid Return Location
+Description: Test how the system handles an invalid or unavailable return location.
+
+Steps:
+1. Visit https://m.uber.com/go/rent.
+2. Select a pickup location.
+3. Choose an invalid or unavailable return location (e.g., a location not serviced by Uber Rentals).
+4. Select dates and car preferences.
+5. Fill in all required details correctly.
+6. Submit the form and observe the system response.
+Expected Result: The system should provide a clear error message indicating that the selected return location is invalid or unavailable for rentals.
+
+
+Scenario 3: Edge Case Scenario - No Return Location Selected
+Description: Test how the system handles when no return location is selected.
+
+Steps:
+1. Navigate to https://m.uber.com/go/rent.
+2. Select a pickup location.
+3. Do not choose any return location.
+4. Select dates and car preferences.
+5. Fill in all other required details correctly.
+6. Submit the form and observe the system response.
+Expected Result: The system should display a clear error message indicating that a return location is required to proceed with the booking.
