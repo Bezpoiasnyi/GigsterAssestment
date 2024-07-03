@@ -1,0 +1,21 @@
+Note: Change in Testing Platform
+Due to the "Rent a Car" functionality no longer being available on Lyft's platform, the test scenarios have been adjusted to evaluate the equivalent feature on Uber's platform instead.
+
+High-Level Test Plan for "Rent a Car" Functionality
+
+Introduction
+This test plan outlines how we will test the "Rent a Car" feature on the Uber mobile website to ensure it works correctly and meets user needs.
+
+Objectives
+Our main goals are to:
+Confirm that users can successfully book rental cars without any issues.
+Check that the system is easy to use and performs well.
+
+Scope
+We will focus on:
+Making sure the booking form works as expected.
+Checking that all required fields are validated properly.
+Testing across different web browsers and mobile devices.
+
+Test Approach
+We will manually test the website to see how it responds to user actions and input.
